@@ -1,0 +1,6 @@
+# system
+.DS_Store
+*.log
+
+# npm
+node_modules
