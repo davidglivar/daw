@@ -1,0 +1,22 @@
+{
+  "name": "daw",
+  "version": "0.0.0",
+  "description": "Web Audio API library",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/testling -x open"
+  },
+  "author": "David Glivar <davidglivar@gmail.com>",
+  "license": "ISC",
+  "testling": {
+    "browsers": [
+      "chrome/latest"
+    ],
+    "files": "test/*.test.js"
+  },
+  "devDependencies": {
+    "browserify": "^6.2.0",
+    "tape": "^3.0.2",
+    "testling": "^1.7.1"
+  }
+}
